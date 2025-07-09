@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Employee Management",
+    "imgUrl": "https://i.ibb.co.com/kMdprpd/happy-business-ladies-team-waving-hello-standing-together-near-office-building-looking-camera-smilin.jpg",
+    "link": "https://final-assignment-573ef.web.app/",
+    "github": "https://github.com/mosiur73/employees-management-client-side",
+    "techStack": ["JavaScript","React","Tailwind","Express.js","MongoDB","Node.js","jwt", "Firebase"],
+    "description": "This is a back-end project for managing employee data and performance reviews. The system stores employee information in MongoDB and provides APIs to interact with it",
+    "challenges": "Handling payment method and state management efficiently.",
+    "improvements": "Improve UI/UX and add AI-based management suggestions."
+  },
+  
+  {
+    "id": 2,
+    "title": "Language Exchange",
+    "imgUrl": "https://i.ibb.co/hxF24y2f/home-bg-6.jpg",
+    "link": "https://language-exchange-f11fa.web.app/",
+    "github": "https://github.com/mosiur73/a11-language-exchange--client-side",
+    "techStack":["JavaScript","React","Tailwind","Express.js","Node.js","MongoDB","jwt", "Firebase"],
+    "description": "A platform for users to find partners to practice different languages.",
+    "challenges": "Matching users based on language preferences efficiently.",
+    "improvements": "Implement AI-powered language matching and real-time chat."
+  },
+  {
+    "id": 3,
+    "title": "Sport Store",
+    "imgUrl": "https://i.ibb.co.com/3M19nhS/top-view-composition-with-neatly-arranged-organized-sport-items.jpg",
+    "link": "https://assignment-lotus.web.app/",
+    "github": "https://github.com/mosiur73/a10-client-side-sport-store",
+    "techStack": ["JavaScript","React","Tailwind","Express.js","Node.js","MongoDB","jwt", "Firebase"],
+    "description": "An e-commerce platform for sports products with cart and checkout features.",
+    "challenges": "Implementing real-time cart updates and handling payments.",
+    "improvements": "Add product reviews and integrate payment gateways."
+  }
+]
