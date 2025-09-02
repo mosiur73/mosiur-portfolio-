@@ -10,9 +10,19 @@
     "challenges": "Handling payment method and state management efficiently.",
     "improvements": "Improve UI/UX and add AI-based management suggestions."
   },
-  
+   {
+  "id": 2,
+  "title": "Product Management",
+  "imgUrl": "https://i.ibb.co.com/jkMvTyTL/image.png",
+  "link": "https://manage-mart-tau.vercel.app/",
+  "github": "https://github.com/mosiur73/manage-mart",
+  "techStack": ["JavaScript","Next.js","Tailwind CSS","ShadCn Ui","Framer Motion","OAuth","MongoDB"],
+  "description": "A web application to manage products efficiently with features like product listing, categories, inventory, and secure admin dashboard.",
+  "challenges": "Implementing secure role-based authentication for admins and general users. and ensuring secure CRUD operations.",
+  "improvements": "Add advanced analytics dashboard, integrate AI for product demand forecasting, Introduce real-time notifications for low stock alerts and system updates."
+},
   {
-    "id": 2,
+    "id": 3,
     "title": "Language Exchange",
     "imgUrl": "https://i.ibb.co/hxF24y2f/home-bg-6.jpg",
     "link": "https://language-exchange-f11fa.web.app/",
@@ -23,7 +33,7 @@
     "improvements": "Implement AI-powered language matching and real-time chat."
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Sport Store",
     "imgUrl": "https://i.ibb.co.com/3M19nhS/top-view-composition-with-neatly-arranged-organized-sport-items.jpg",
     "link": "https://assignment-lotus.web.app/",
@@ -33,4 +43,6 @@
     "challenges": "Implementing real-time cart updates and handling payments.",
     "improvements": "Add product reviews and integrate payment gateways."
   }
+ 
+
 ]

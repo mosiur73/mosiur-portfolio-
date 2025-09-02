@@ -1,7 +1,7 @@
 "use client"
 
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiFirebase, SiExpress } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaNodeJs, FaBootstrap, FaFigma } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiFirebase, SiExpress, SiNextdotjs, SiRedux, SiShadcnui, SiVercel } from "react-icons/si";
 
 
 export function SkillsSection() {
@@ -17,11 +17,17 @@ export function SkillsSection() {
     // { name: "Express.js", level: 85, icon: "🚂" },
     // { name: "MongoDB", level: 87, icon: "🍃" },
         { name: "HTML 5", icon: <FaHtml5 className="text-orange-500 text-4xl" /> },
-        { name: "CSS 3 Animation", icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
+        { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500 text-4xl" /> },
+        { name: "Bootstrap", icon: <FaBootstrap className="text-teal-500 text-4xl" /> },
         { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-4xl" /> },
         { name: "React", icon: <FaReact className="text-blue-400 text-4xl" /> },
-        { name: "Github", icon: <FaGithub className="text-gray-700 text-4xl" /> },
+        { name: "Next.js", icon:<SiNextdotjs className="text-teal-500 text-4xl" /> },
+        { name: "Redux", icon: <SiRedux className="text-blue-500 text-4xl" /> },
+        { name: "ShadCn Ui", icon: <SiShadcnui className="text-orange-500 text-4xl" /> },
+        { name: "Figma", icon: <FaFigma className="text-blue-500 text-4xl" /> },
+        { name: "Vercel", icon: <SiVercel className="text-green-500 text-4xl" /> },
+        { name: "Github", icon: <FaGithub className="text-blue-700 text-4xl" /> },
         { name: "Firebase", icon: <SiFirebase className="text-yellow-400 text-4xl" /> },
         { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-4xl" /> },
         { name: "Node", icon: <FaNodeJs className="text-green-400 text-4xl" /> },
