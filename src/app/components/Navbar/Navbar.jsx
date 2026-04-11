@@ -55,12 +55,12 @@ export default function PortfolioNavbar() {
   }
 
   const navItems = [
-    { id: "home", label: "Home", icon: "🏠" },
-    { id: "about", label: "About", icon: "👨‍💻" },
-    { id: "skills", label: "Skills", icon: "⚡" },
-    { id: "experience", label: "Education", icon: "🚀" },
-    { id: "projects", label: "Projects", icon: "💼" },
-    { id: "contact", label: "Contact", icon: "📧" },
+    { id: "home", label: "Home" },
+    { id: "about", label: "About"},
+    { id: "skills", label: "Skills" },
+    { id: "experience", label: "Education" },
+    { id: "projects", label: "Projects" },
+    { id: "contact", label: "Contact" },
   ]
 
   return (
@@ -86,7 +86,7 @@ export default function PortfolioNavbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-center space-x-1">
+            <div className="ml-10 flex items-center  space-x-1">
               {navItems.map((item) => (
                 <button
                   key={item.id}
