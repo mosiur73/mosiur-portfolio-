@@ -33,16 +33,14 @@
     "improvements": "Implement AI-powered language matching and real-time chat."
   },
   {
-    "id": 4,
-    "title": "Sport Store",
-    "imgUrl": "https://i.ibb.co.com/3M19nhS/top-view-composition-with-neatly-arranged-organized-sport-items.jpg",
-    "link": "https://assignment-lotus.web.app/",
-    "github": "https://github.com/mosiur73/a10-client-side-sport-store",
-    "techStack": ["JavaScript","React","Tailwind","Express.js","Node.js","MongoDB","jwt", "Firebase"],
-    "description": "An e-commerce platform for sports products with cart and checkout features.",
-    "challenges": "Implementing real-time cart updates and handling payments.",
-    "improvements": "Add product reviews and integrate payment gateways."
-  }
- 
-
+  "id": 4,
+  "title": "EduBridge",
+  "imgUrl": "https://i.ibb.co.com/3yxcyNVb/edubridge.png",
+  "link": "https://edubridge-client.vercel.app",
+  "github": "https://github.com/mosiur73/edubridge-client",
+  "techStack": ["TypeScript", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Better Auth", "Stripe", "Tailwind CSS", "Framer Motion"],
+  "description": "A full-stack online tutoring platform connecting students with expert tutors through secure booking and Stripe payment integration.",
+  "challenges": "Handling cross-origin cookie-based authentication between separate Vercel deployments for frontend and backend.",
+  "improvements": "Add real-time video sessions, AI-powered tutor matching, and mobile app support."
+}
 ]

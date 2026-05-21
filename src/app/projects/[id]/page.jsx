@@ -2,11 +2,12 @@ import projects from "../../../../public/data.json";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-export default function ProjectDetails({ params }) {
-  const project = projects.find((p) => String(p.id) === params.id);
+export default async function ProjectDetails({ params }) {
+  const { id } = await params;
+  const project = projects.find((p) => String(p.id) === id);
   if (!project) return notFound();
 
-  const currentIndex = projects.findIndex((p) => String(p.id) === params.id);
+  const currentIndex = projects.findIndex((p) => String(p.id) === id);
   const nextProject = projects[currentIndex + 1] || projects[0];
 
   return (
