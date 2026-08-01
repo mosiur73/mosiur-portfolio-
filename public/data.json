@@ -44,16 +44,16 @@
   "improvements": "Add advanced analytics dashboard, integrate AI for product demand forecasting, Introduce real-time notifications for low stock alerts and system updates."
 },
   {
-    "id": 5,
-    "title": "Language Exchange",
-    "imgUrl": "https://i.ibb.co/hxF24y2f/home-bg-6.jpg",
-    "link": "https://language-exchange-f11fa.web.app/",
-    "github": "https://github.com/mosiur73/a11-language-exchange--client-side",
-    "techStack":["JavaScript","React","Tailwind","Express.js","Node.js","MongoDB","jwt", "Firebase"],
-    "description": "A platform for users to find partners to practice different languages.",
-    "challenges": "Matching users based on language preferences efficiently.",
-    "improvements": "Implement AI-powered language matching and real-time chat."
-  }
+  "id": 5,
+  "title": "TeamTrack — Smart Project & Task Collaboration System",
+  "imgUrl": "https://i.ibb.co.com/F4Z0s4c8/teamtrack.png",
+  "link": "https://teamtrack-indol.vercel.app",
+  "github": "https://github.com/mosiur73/teamtrack",
+  "techStack": ["TypeScript", "Next.js", "Node.js", "Prisma", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Recharts", "Cloudinary"],
+  "description": "A role-based project management platform enabling Admins, Project Managers, and Team Members to collaborate on projects and tasks, with a real-time analytics dashboard, activity logging, and deadline tracking.",
+  "challenges": "Implementing granular role-based access control at the middleware level, and building an accurate activity-logging system that tracks state changes across projects, tasks, and team members in real time.",
+  "improvements": "Integrate WebSocket-based real-time updates, recurring task automation, and third-party calendar sync (Google Calendar, Outlook)."
+}
  
 
 ]
