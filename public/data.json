@@ -1,6 +1,28 @@
 [
   {
-    "id": 1,
+  "id": 1,
+  "title": "MindSpace",
+  "imgUrl": "https://i.ibb.co.com/4wc4qFNN/mindspace.png",
+  "link": "https://mindspace-frontend-seven.vercel.app",
+  "github": "https://github.com/mosiur73/mindspace-frontend-",
+  "techStack": ["TypeScript", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Socket.io", "NextAuth", "SSLCommerz", "Tailwind CSS"],
+  "description": "A full-stack AI-powered mental health platform where users can find and book licensed therapists, track daily mood, write AI-analyzed journals, and receive personalized wellness insights through Google Gemini AI integration.",
+  "challenges": "Implementing real-time notifications with Socket.io across role-based dashboards while maintaining seamless session management with NextAuth and JWT.",
+  "improvements": "Add video call sessions, mobile app support, and expand AI features with voice-based mood detection."
+},
+ {
+  "id": 2,
+  "title": "EduBridge",
+  "imgUrl": "https://i.ibb.co.com/3yxcyNVb/edubridge.png",
+  "link": "https://edubridge-client.vercel.app",
+  "github": "https://github.com/mosiur73/edubridge-client",
+  "techStack": ["TypeScript", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Better Auth", "Stripe", "Tailwind CSS", "Framer Motion"],
+  "description": "A full-stack online tutoring platform connecting students with expert tutors through secure booking and Stripe payment integration.",
+  "challenges": "Handling cross-origin cookie-based authentication between separate Vercel deployments for frontend and backend.",
+  "improvements": "Add real-time video sessions, AI-powered tutor matching, and mobile app support."
+},
+  {
+    "id": 3,
     "title": "Employee Management",
     "imgUrl": "https://i.ibb.co.com/kMdprpd/happy-business-ladies-team-waving-hello-standing-together-near-office-building-looking-camera-smilin.jpg",
     "link": "https://final-assignment-573ef.web.app/",
@@ -11,7 +33,7 @@
     "improvements": "Improve UI/UX and add AI-based management suggestions."
   },
    {
-  "id": 2,
+  "id": 4,
   "title": "Product Management",
   "imgUrl": "https://i.ibb.co.com/jkMvTyTL/image.png",
   "link": "https://manage-mart-tau.vercel.app/",
@@ -22,7 +44,7 @@
   "improvements": "Add advanced analytics dashboard, integrate AI for product demand forecasting, Introduce real-time notifications for low stock alerts and system updates."
 },
   {
-    "id": 3,
+    "id": 5,
     "title": "Language Exchange",
     "imgUrl": "https://i.ibb.co/hxF24y2f/home-bg-6.jpg",
     "link": "https://language-exchange-f11fa.web.app/",
@@ -31,16 +53,7 @@
     "description": "A platform for users to find partners to practice different languages.",
     "challenges": "Matching users based on language preferences efficiently.",
     "improvements": "Implement AI-powered language matching and real-time chat."
-  },
-  {
-  "id": 4,
-  "title": "EduBridge",
-  "imgUrl": "https://i.ibb.co.com/3yxcyNVb/edubridge.png",
-  "link": "https://edubridge-client.vercel.app",
-  "github": "https://github.com/mosiur73/edubridge-client",
-  "techStack": ["TypeScript", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Better Auth", "Stripe", "Tailwind CSS", "Framer Motion"],
-  "description": "A full-stack online tutoring platform connecting students with expert tutors through secure booking and Stripe payment integration.",
-  "challenges": "Handling cross-origin cookie-based authentication between separate Vercel deployments for frontend and backend.",
-  "improvements": "Add real-time video sessions, AI-powered tutor matching, and mobile app support."
-}
+  }
+ 
+
 ]
